@@ -15,6 +15,6 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "build": "npm install && npx sequelize init && npx sequelize-cli db:migrate && cd type_speed_test && rm -rf dist && npm install && npm run build"
+    "build": "npm install && npm sequelize init && npx sequelize-cli db:migrate && cd type_speed_test && rm -rf dist && npm install && npm run build"
   }
 }
